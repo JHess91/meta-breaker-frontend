@@ -5,7 +5,7 @@ const AdminDisplay = ({ legends, index }) => {
     <Link state={legends} to="/legend-edit" key={index}>
     <div className="edit-container">
         
-      <div class="col-sm" >
+      <div className="col-sm" >
         <img className="card-image" src={legends.url} alt="" />
         <h1 className="legend-name">{legends.name}</h1>
       </div>

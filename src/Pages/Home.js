@@ -24,10 +24,10 @@ function Randomizer() {
 
   const handleRandomNum = () => {
     setRandomLegend(Math.floor(Math.random() * 23))
-    setRandomGun(Math.floor(Math.random() * 27))
-    setRandomGunTwo(Math.floor(Math.random() * 27))
+    setRandomGun(Math.floor(Math.random() * 26))
+    setRandomGunTwo(Math.floor(Math.random() * 26))
   }
-  console.log(randomGun, randomGunTwo)
+  console.log("guns", guns)
 
   return (
     <Container
@@ -73,9 +73,9 @@ function Randomizer() {
           </div>
 
           <div>
-            <button data-text="Awesome" class="button mt-5" onClick={() => handleRandomNum()}>
-              <span class="actual-text">&nbsp;RANDOM&nbsp;</span>
-              <span class="hover-text" aria-hidden="true">
+            <button data-text="Awesome" className="button mt-5" onClick={() => handleRandomNum()}>
+              <span className="actual-text">&nbsp;RANDOM&nbsp;</span>
+              <span className="hover-text" aria-hidden="true">
                 &nbsp;RANDOM&nbsp;
               </span>
             </button>

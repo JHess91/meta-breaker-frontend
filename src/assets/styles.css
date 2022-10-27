@@ -16,7 +16,7 @@
   color: #ffffff;
   text-shadow: 3px 3px #4e4b4b;
   background-color: #292828;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: #d41b1b66 0px 5px 7px, #d41b1b66 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .card-image{
@@ -46,15 +46,20 @@ a:hover, a:visited, a:link, a:active {
   font-size: 40px;
   font-family: 'Jura', sans-serif;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
+  text-shadow: 4px 10px 8px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
 }
 
 .legend-role {
   font-family: 'Jura', sans-serif;
+  font-size: 16px;
   text-decoration: none;
-  color: black;
+  color: red;
   text-align: center;
+  text-shadow: 3px 4px 2px rgba(0,0,0,0.2),
+                 0px -1px 50px rgba(0, 0, 0, 0.325);
 }
 
 
@@ -84,22 +89,21 @@ a:hover, a:visited, a:link, a:active {
   
  }
 
- .card-img {
-  /* height: 300px;
-  width: 200px; */
- }
 
  .ability-title {
   font-family: 'Jura', sans-serif;
   text-align: center;
   color: red;
   font-size: 20px;
+  text-shadow: 1px 6px 4px rgba(0,0,0,0.2),
+                 0px -1px 35px rgba(0, 0, 0, 0.325);
  }
 
  .ability-name {
   font-size: 30px;
   font-family: 'Jura', sans-serif;
   text-align: center;
+  color: rgb(1, 1, 1);
  }
 
  .ability-img {
@@ -115,6 +119,7 @@ a:hover, a:visited, a:link, a:active {
  .ability-descript {
   font-family: 'Jura', sans-serif;
   word-wrap: break-word;
+  color: white;
  }
 
  .single-title {
@@ -136,13 +141,6 @@ a:hover, a:visited, a:link, a:active {
   text-align: center;
   font-size: 20px;
   color: red;
- }
-
- .single-role {
-  font-family: 'Jura', sans-serif;
-  text-align: center;
-  font-size: 30px;
-  padding-bottom: 15px;
  }
 
  .single-header {
@@ -177,7 +175,6 @@ a:hover, a:visited, a:link, a:active {
 
  .edit-page-name {
   font-size: 80px;
-  background-color: rgb(79, 78, 78);
   color: white;
   padding-bottom: 10px;
  }
@@ -193,15 +190,191 @@ a:hover, a:visited, a:link, a:active {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
  }
 
- .add-btn {
-  align-items: center;
-  height: 30px;
-  width: 100px;
- }
-
  .nav {
   font-family: 'Jura', sans-serif;
  }
+
+.about-me {
+  font-family: 'Jura', sans-serif;
+}
+
+.about-img {
+  padding: 30px;
+}
+
+.about-header {
+  background-color: #292828;
+  color: white;
+  height: 100%;
+  box-shadow: #d41b1b66 0px 5px 7px, #d41b1b66 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.about-title {
+  font-family: 'Jura', sans-serif;
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-shadow: 3px 3px #4e4b4b;
+  background-color: #292828;
+  
+}
+
+.about-name {
+  font-family: 'Jura', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: red;
+}
+
+.about-info {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.about-credits {
+  color: red;
+}
+
+
+.random-legend-description {
+  font-family: 'Jura', sans-serif;
+  color: white;
+  font-size: 45px;
+  filter: drop-shadow(4px 6px 1px #00000080);
+  
+}
+
+.random-legend-name {
+  font-family: 'Jura', sans-serif;
+  font-size: 35px;
+  color: red;
+  filter: drop-shadow(4px 6px 1px #00000080);
+}
+
+.random-weapon-name {
+  font-family: 'Jura', sans-serif;
+  font-size: 35px;
+  color: red;
+  filter: drop-shadow(4px 6px 1px #00000080);
+}
+
+.random-weapon-description {
+  font-family: 'Jura', sans-serif;
+  color:white;
+  font-size: 35px;
+  filter: drop-shadow(4px 6px 1px #00000080);
+}
+
+.random-header{
+  background-color: #292828;
+  color: white;
+  height: 100%;
+  padding: 40px;
+  box-shadow: #d41b1b66 0px 5px 7px, #d41b1b66 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.random-weapon {
+  width: 380px;
+  filter: drop-shadow(17px 10px 2px #00000080);
+}
+
+body {
+    /* background-image: url(https://fianl-project-images.s3.amazonaws.com/background/background2.jpg); */
+    background-image: url(https://fianl-project-images.s3.amazonaws.com/background/background5.png);
+    background-color: #00060f;
+    background-size:cover !important;
+    background-repeat: no-repeat;
+    background-position: middle;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px auto;
+    max-width:100%;
+}
+
+.image-crop {
+  width: 380px;
+  height: 600px;
+	/* max-height: 60%; */
+	/* object-fit: cover; */
+	object-position: center top;
+  filter: drop-shadow(17px 10px 2px #00000080);
+}
+
+.random-weapon-container {
+  margin-top: 30px ;
+}
+
+.button {
+  margin: 0;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255, 255, 255, 0.433);
+  --animation-color: #ff0000;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+
+
+
+
+
+/* Footer */
+
+
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+ul li a {
+  text-align: center;
+  font-size: 30px;
+  color: rgba(53, 52, 52, 0.761);
+}
+
+
+
+
 
 
 

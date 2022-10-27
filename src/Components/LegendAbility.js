@@ -9,7 +9,7 @@ const LegendAbility = () => {
   console.log(location)
 
   return (
-    <Stack gap={3} >
+    <Stack gap={6} >
       <div align='center' className="ability-container">
         <div className="ability-title">Passive</div>
         <div className="ability-name">{passive}</div>

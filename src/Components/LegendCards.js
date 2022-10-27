@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export const LegendCards = ({ legends, index }) => {
   return (
-      <Link state={legends} to="/legend-info" key={index}>
+    <Link state={legends} to="/legend-info" key={index}>
         <div className="card-container each-legend">
           <div class="col-sm" className="cards">
             <img className="card-image" src={legends.url} alt="" />
@@ -11,5 +11,8 @@ export const LegendCards = ({ legends, index }) => {
           </div>
         </div>
       </Link>
+      
+    
+      
   )
 }

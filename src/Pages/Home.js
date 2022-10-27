@@ -24,8 +24,8 @@ function Randomizer() {
 
   const handleRandomNum = () => {
     setRandomLegend(Math.floor(Math.random() * 23))
-    setRandomGun(Math.floor(Math.random() * 26))
-    setRandomGunTwo(Math.floor(Math.random() * 26))
+    setRandomGun(Math.floor(Math.random() * 27))
+    setRandomGunTwo(Math.floor(Math.random() * 27))
   }
   console.log("guns", guns)
 

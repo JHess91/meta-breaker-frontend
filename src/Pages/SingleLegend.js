@@ -13,7 +13,7 @@ const SingleLegends = () => {
   return (
     <Container
       // style={{ backgroundColor: '#757575', paddingLeft: 0, paddingRight: 0 }}
-      style={{ backgroundImage: `url("https://fianl-project-images.s3.amazonaws.com/background/background4.jpg")`, paddingLeft: 0, paddingRight: 0, backgroundAttachment: 'fixed', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'middle' }}
+      style={{ backgroundImage: `url("https://fianl-project-images.s3.amazonaws.com/background/background6.jpg")`, paddingLeft: 0, paddingRight: 0, backgroundAttachment: 'fixed', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'middle' }}
       fluid
     >
       <div className="single-header">
@@ -24,10 +24,10 @@ const SingleLegends = () => {
       </div>
 
       <Row className='d-flex justify-content-center gx-1'>
-        <Col sm={12} md={5}>
+        <Col sm={12} md={6}>
           <Image src={background} alt="" className='single-background mx-auto d-block' fluid />
         </Col>
-        <Col sm={12} md={4} >
+        <Col sm={12} md={6} >
           <LegendAbility />
         </Col>
       </Row>

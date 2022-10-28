@@ -21,7 +21,7 @@ const Legends = () => {
 
   return (
     // <Container style={{backgroundImage: `url("https://fianl-project-images.s3.amazonaws.com/background/background3.png")`, backgroundAttachment: 'fixed', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'middle'}} fluid>
-    <Container style={{backgroundImage: `url("https://fianl-project-images.s3.amazonaws.com/background/background4.jpg")`, backgroundAttachment: 'fixed', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'middle'}} fluid>
+    <Container style={{backgroundImage: `url("https://fianl-project-images.s3.amazonaws.com/background/background6.jpg")`, backgroundAttachment: 'fixed', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'middle'}} fluid>
       <Row md={12} sm={8}>
         <h5 md={12} sm={8} className="legends-title" align="center">LEGENDS</h5>
         <Col className="d-flex flex-wrap">{allLegends}</Col>

@@ -10,13 +10,15 @@
 
 .legends-title{
   font-family: 'Jura', sans-serif;
-  padding: 40px;
+  padding: 27px;
   font-size: 80px;
-  height:180px;
+  height:100%;
   color: #ffffff;
   text-shadow: 3px 3px #4e4b4b;
   background-color: #292828;
   box-shadow: #d41b1b66 0px 5px 7px, #d41b1b66 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.572),
+                 1px -1px 15px rgba(248, 5, 5, 0.831);
 }
 
 .card-image{
@@ -94,16 +96,20 @@ a:hover, a:visited, a:link, a:active {
   font-family: 'Jura', sans-serif;
   text-align: center;
   color: red;
-  font-size: 20px;
-  text-shadow: 1px 6px 4px rgba(0,0,0,0.2),
-                 0px -1px 35px rgba(0, 0, 0, 0.325);
+  font-size: 22px;
+  letter-spacing: 1px;
+  filter: drop-shadow(4px 3px 1px #00000080);
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.572),
+                 1px 1px 2px rgba(248, 5, 5, 0.831);
  }
 
  .ability-name {
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'Jura', sans-serif;
   text-align: center;
   color: rgb(1, 1, 1);
+  text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.183),
+                 1px -1px 15px rgba(248, 5, 5, 0.449);
  }
 
  .ability-img {
@@ -126,8 +132,10 @@ a:hover, a:visited, a:link, a:active {
   font-family: 'Jura', sans-serif;
   text-align: center;
   font-size: 70px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: capitalize; 
+  text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.572),
+                 1px -1px 15px rgba(248, 5, 5, 0.831);
  }
 
  .single-type {
@@ -147,6 +155,7 @@ a:hover, a:visited, a:link, a:active {
   background-color: #292828;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: #d41b1b66 0px 5px 7px, #d41b1b66 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
  }
 
  .edit-test {
@@ -217,7 +226,8 @@ a:hover, a:visited, a:link, a:active {
   text-transform: capitalize;
   text-shadow: 3px 3px #4e4b4b;
   background-color: #292828;
-  
+  text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.572),
+                 1px -1px 15px rgba(248, 5, 5, 0.831);
 }
 
 .about-name {
@@ -231,10 +241,14 @@ a:hover, a:visited, a:link, a:active {
   color: white;
   font-size: 40px;
   letter-spacing: 3px;
+  text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.572),
+                 1px -1px 15px rgba(248, 5, 5, 0.831);
 }
 
 .about-credits {
   color: red;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.572),
+                 1px -1px 15px rgba(248, 5, 5, 0.831);
 }
 
 
@@ -243,14 +257,17 @@ a:hover, a:visited, a:link, a:active {
   color: white;
   font-size: 45px;
   filter: drop-shadow(4px 6px 1px #00000080);
-  
+  text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.572),
+                 1px -1px 15px rgba(248, 5, 5, 0.831);
 }
 
 .random-legend-name {
   font-family: 'Jura', sans-serif;
   font-size: 35px;
-  color: red;
-  filter: drop-shadow(4px 6px 1px #00000080);
+  color: rgb(255, 0, 0);
+  filter: drop-shadow(4px 4px 2px #00000080);filter: drop-shadow(4px 6px 1px #00000080);
+  text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.572),
+                 1px -1px 15px rgba(0, 0, 0, 0.831);
 }
 
 .random-weapon-name {
@@ -258,6 +275,8 @@ a:hover, a:visited, a:link, a:active {
   font-size: 35px;
   color: red;
   filter: drop-shadow(4px 6px 1px #00000080);
+  text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.572),
+                 1px -1px 15px rgba(0, 0, 0, 0.831);
 }
 
 .random-weapon-description {
@@ -265,6 +284,8 @@ a:hover, a:visited, a:link, a:active {
   color:white;
   font-size: 35px;
   filter: drop-shadow(4px 6px 1px #00000080);
+  text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.572),
+                 1px -1px 15px rgba(248, 5, 5, 0.831);
 }
 
 .random-header{
@@ -296,8 +317,6 @@ body {
 .image-crop {
   width: 380px;
   height: 600px;
-	/* max-height: 60%; */
-	/* object-fit: cover; */
 	object-position: center top;
   filter: drop-shadow(17px 10px 2px #00000080);
 }

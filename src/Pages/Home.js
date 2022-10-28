@@ -28,6 +28,7 @@ function Randomizer() {
     setRandomGunTwo(Math.floor(Math.random() * 27))
   }
   console.log("guns", guns)
+  console.log(process.env.REACT_APP_API_ENDPOINT + '/guns')
 
   return (
     <Container

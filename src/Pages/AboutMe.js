@@ -4,14 +4,12 @@ import Footer from '../Components/Footer'
 const AboutMe = () => {
   return (
     <Container
-      md={12}
       sm={6}
       style={{ backgroundColor: '#757575' }}
-      fluid
       className="about-me"
     >
       <Row align="center" fluid>
-        <Col className="about-header">
+        <Col  className="about-header px-5">
           <h1 className="about-title">Meta Breaker</h1>
           <h6>By:</h6>
           <h5 className="about-name">Justin Hessler</h5>
@@ -26,7 +24,7 @@ const AboutMe = () => {
       <br />
       <Row align="center">
         <h1 className="about-info">About me</h1>
-        <p>
+        <p className='about-me-text'>
           My name is Justin Hessler and I am a full stack software engineer. I
           currently work in the lighting industry, blowing glass for a company
           named Fine Art Handcrafted Lighting. I am 31 years old and some of my
@@ -47,7 +45,7 @@ const AboutMe = () => {
 
       <Row align="center">
         <h1 className="about-info">Why?</h1>
-        <p>
+        <p className='about-me-text'>
           I created this website because I found myself confused one day while
           playing. My teammate was first in line to pick there legend and they
           just so happened to pick the legend I play the most. As it became my
@@ -69,7 +67,7 @@ const AboutMe = () => {
 
       <Row align="center">
         <h1 className="about-info">Future Vision</h1>
-        <p>
+        <p className='about-me-text'>
           In the future I want this app to be able to work with many other
           games. Games now days give you the option to choose from a wide
           variety of characters. And because there are so many people tend to

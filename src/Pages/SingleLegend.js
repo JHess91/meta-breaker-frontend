@@ -12,23 +12,34 @@ const SingleLegends = () => {
 
   return (
     <Container
-      // style={{ backgroundColor: '#757575', paddingLeft: 0, paddingRight: 0 }}
-      style={{ backgroundImage: `url("https://fianl-project-images.s3.amazonaws.com/background/background6.jpg")`, paddingLeft: 0, paddingRight: 0, backgroundAttachment: 'fixed', backgroundSize:'cover', backgroundRepeat:'no-repeat', backgroundPosition:'middle' }}
+      id='single-legend-page'
       fluid
     >
-      <div className="single-header">
-        <h1 className="single-title">{name}</h1>
-        <h5 className="single-type-desc">Legend Type:</h5>
-        <h5 className="single-type">{type}</h5>
-        <br />
-      </div>
-
-      <Row className='d-flex justify-content-center gx-1'>
-        <Col sm={12} md={6}>
-          <Image src={background} alt="" className='single-background mx-auto d-block' fluid />
+      <Row className="d-flex justify-content-center gx-5">
+        <Col sm={12} md={4}>
+          <Image
+            src={background}
+            alt=""
+            className="single-background mx-auto d-block"
+            fluid
+          />
         </Col>
-        <Col sm={12} md={6} >
+        <Col sm={12} md={6} align='center'>
+          <h1 className="single-title">{name}</h1>
+          <h5 className="ability-title">Legend Type:</h5>
+          <h5 className="ability-name">{type}</h5>
           <LegendAbility />
+          <button className="button mt-5" onClick={() => window.location.href = './legends' }>
+              <span className="actual-text">&nbsp;Back&nbsp;</span>
+              <span className="hover-text" aria-hidden="true">
+                &nbsp;Back&nbsp;
+              </span>
+            </button>
+        </Col>
+      </Row>
+      <Row>
+        <Col align='center'>
+        
         </Col>
       </Row>
     </Container>

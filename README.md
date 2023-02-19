@@ -1,6 +1,6 @@
 # Meta Breaker
 
-Boca Code final Projec
+Boca Code final Project
 
 Apex Legends Randomizer 
 

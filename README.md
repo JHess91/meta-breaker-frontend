@@ -4,7 +4,7 @@ Boca Code final Project
 
 Apex Legends Randomizer 
 
-With the click of a button get a random loadout chosen for you!
+With the click of a button get a random loadout chosen for you! Created using the MERN stack
 
 [Click to run demo](http://meta-breaker.s3-website-us-east-1.amazonaws.com/)
 
